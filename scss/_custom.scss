@@ -1,0 +1,33 @@
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+// CUSTOM CHANGES
+$red: #f40f0f;
+$yellow: #f1f116;
+$orange: #ff9d00;
+$orange-dark: #bd7500;
+
+// WHITE AND BLACK
+$white: #fff;
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #212529;
+$black: #000;
+$black-trans: #000000ee;
+
+// PRIMARY COLORS
+$primary: $yellow;
+$secondary: $orange;
+$secondary-dark: $orange-dark;
+$success: $green !default;
+$info: $cyan !default;
+$warning: $yellow !default;
+$danger: $red !default;
+$light: $gray-100 !default;
+$dark: $gray-900 !default;

@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Let's Eat</title>
+    <meta name="author" content="Anu Adebayo">
+    <link rel="stylesheet" type="text/css" href="./asset/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="asset/css/fontawesome.css">
+
+</head>
+<body>
+    <!-- HEADER AND NAVBAR -->
+    <div class="hero-bg">
+        <div class="hero-img">
+            <img src="./asset/img/hero-bg.jpg" alt="Let's Eat">
+        </div>
+        <header class="hero-header">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <a class="navbar-brand" href="#">Let's Eat.</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav-menu" aria-controls="navv-menu" aria-expanded="false" aria-label="Menu">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="nav-menu">
+                        <ul class="navbar-nav mx-auto ">
+                            <li class="nav-item">
+                            <a href="#" class="nav-link active" aria-controls="page">Home</a>
+                            <li class="nav-item">
+                            <a href="#shop" class="nav-link">Menu</a>
+                            <li class="nav-item">
+                            <a href="#about" class="nav-link">About</a>
+                            <li class="nav-item">
+                            <a href="#contact" class="nav-link">Contact</a>
+                        </ul>
+                        <div class="user-option">
+                            <a href="" class="option-link">
+                                <span class="fa-solid fa-user"></span>
+                            </a>
+                            <a href="" class="option-link">
+                                <span class="fa-solid fa-cart-shopping"></span>
+                            </a>
+                            <form action="#" class="form-inline">
+                                <button class="btn nav-btn my-2 my-sm-0" type="submit"><span class="fa-solid fa-search"></span></button>
+                            </form>
+                            <a href="#" class="order-btn order-nav">
+                                <span>Order Online</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+        </header>
+
+        <div class="hero-carousel">
+            <div id="intro-carousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-7">
+                                    <div class="display-1">Let's Eat Together.</div>
+                                    <div>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, dolorem soluta alias consectetur magni
+                                            placeat necessitatibus? Id, magnam. Culpa ducimus necessitatibus ipsa suscipit, accusamus cum minus a illum
+                                            voluptatem nostrum saepe blanditiis dolorem at modi tenetur dolor tempora incidunt repellendus praesentium
+                                            maxime id, cumque amet pariatur? Excepturi, vero. Dolorum, modi?</p>
+                                    </div>
+                                    <div>
+                                        <a href="#" class="order-btn">
+                                            <span>Order Now</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-7">
+                                    <div class="display-1">Let's Eat Together.</div>
+                                    <div>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, dolorem soluta alias consectetur magni
+                                            placeat necessitatibus? Id, magnam. Culpa ducimus necessitatibus ipsa suscipit, accusamus cum minus a illum
+                                            voluptatem nostrum saepe blanditiis dolorem at modi tenetur dolor tempora incidunt repellendus praesentium
+                                            maxime id, cumque amet pariatur? Excepturi, vero. Dolorum, modi?</p>
+                                    </div>
+                                    <div>
+                                        <a href="#" class="order-btn">
+                                            <span>Order Now</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-lg-6 col-md-7">
+                                    <div class="display-1">Let's Eat Together.</div>
+                                    <div>
+                                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eaque, dolorem soluta alias consectetur
+                                            magni
+                                            placeat necessitatibus? Id, magnam. Culpa ducimus necessitatibus ipsa suscipit, accusamus cum
+                                            minus a illum
+                                            voluptatem nostrum saepe blanditiis dolorem at modi tenetur dolor tempora incidunt repellendus
+                                            praesentium
+                                            maxime id, cumque amet pariatur? Excepturi, vero. Dolorum, modi?</p>
+                                    </div>
+                                    <div>
+                                        <a href="#" class="order-btn">
+                                            <span>Order Now</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="carousel-indicator">
+                        <button type="button" data-bs-target="#intro-carousel" data-bs-slide-to="0" class="active" aria-current="true" 
+                            aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#intro-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#intro-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                            
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FEATURED SHOP ITEMS -->
+    <section id="shop" class="shop-section">
+        <div class="custom-ads-placement">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <div class="ads-card">
+                            <div class="row">
+                                <div class="box">
+                                    <div class="box-item">
+                                        <img src="./asset/img/o1.jpg" alt="">
+                                    </div>
+                                    <div class="box-text">
+                                        <div class="title">Tasty Thursdays</div>
+                                        <div class="special-offer">20% <span>off</span></div>
+                                        <a href="#" class="order-btn order-nav">
+                                            <span>Order Online</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div class="ads-card">
+                            <div class="row">
+                                <div class="box">
+                                    <div class="box-item">
+                                        <img src="./asset/img/o2.jpg" alt="">
+                                    </div>
+                                    <div class="box-text">
+                                        <div class="title">Pizza Days</div>
+                                        <div class="special-offer">15% <span>off</span></div>
+                                        <a href="#" class="order-btn order-nav">
+                                            <span>Order Online</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="shop-menu">
+            <div class="mx-auto">
+                <div class="row">
+                    <div class="col-lg-12 col-md-12">
+                        <div class="display-3">Our Menu</div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-12 col-md-12 col-sm-12">
+                        <div class="filter">
+                            <ul class="filter-list">
+                                <a href=".shop-item" data-bs-toggle="collapse" aria-expanded="true" aria-controls="pizza">
+                                    <li class="active">All</li>
+                                </a>
+                                <a href=".shop-item" data-bs-toggle="collapse" aria-expanded="true" aria-controls="pizza">
+                                    <li>Burger</li>
+                                </a>
+                                <a href=".shop-item" data-bs-toggle="collapse" aria-expanded="true" aria-controls="pizza">
+                                    <li>Pizza</li>
+                                </a>
+                                <a href=".shop-item" data-bs-toggle="collapse" aria-expanded="true" aria-controls="pizza">
+                                    <li>Pasta</li>
+                                </a>
+                                <a href=".shop-item" data-bs-toggle="collapse" aria-expanded="true" aria-controls="pizza">
+                                    <li>Fries</li>
+                                </a>
+                                
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 mx-auto">
+                        <div class="shop-menu">
+                            <div id="pizza" class="shop-item col-lg-4 col-md-5 col-sm-12">
+                                <div class="box">
+                                    <div class="box-img">
+                                        <img src="./asset/img/f1.png" alt="">
+                                    </div>
+                                    <div class="box-details">
+                                        <h4>Delicious Pizza</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur velit praesentium iusto porro consequatur ut unde placeat labore tenetur itaque.</p>
+                                        <div class="pricing-detail">
+                                            <span>$20</span>
+                                            <a href="#" class="order-btn">
+                                                <span><i class="fa-solid fa-cart-shopping"></i></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="burger" class="shop-item col-lg-4 col-md-5 col-sm-12">
+                                <div class="box">
+                                    <div class="box-img">
+                                        <img src="./asset/img/f2.png" alt="">
+                                    </div>
+                                    <div class="box-details">
+                                        <h4>Delicious Burger</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur velit praesentium iusto porro
+                                            consequatur ut unde placeat labore tenetur itaque.</p>
+                                        <div class="pricing-detail">
+                                            <span>$15</span>
+                                            <a href="#" class="order-btn">
+                                                <span><i class="fa-solid fa-cart-shopping"></i></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="pizza" class="shop-item col-lg-4 col-md-5 col-sm-12">
+                                <div class="box">
+                                    <div class="box-img">
+                                        <img src="./asset/img/f3.png" alt="">
+                                    </div>
+                                    <div class="box-details">
+                                        <h4>Delicious Pizza</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur velit praesentium iusto porro
+                                            consequatur ut unde placeat labore tenetur itaque.</p>
+                                        <div class="pricing-detail">
+                                            <span>$17</span>
+                                            <a href="#" class="order-btn">
+                                                <span><i class="fa-solid fa-cart-shopping"></i></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="pizza" class="shop-item col-lg-4 col-md-5 col-sm-12">
+                                <div class="box">
+                                    <div class="box-img">
+                                        <img src="./asset/img/f4.png" alt="">
+                                    </div>
+                                    <div class="box-details">
+                                        <h4>Delicious Pasta</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur velit praesentium iusto porro
+                                            consequatur ut unde placeat labore tenetur itaque.</p>
+                                        <div class="pricing-detail">
+                                            <span>$18</span>
+                                            <a href="#" class="order-btn">
+                                                <span><i class="fa-solid fa-cart-shopping"></i></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="burger" class="shop-item col-lg-4 col-md-5 col-sm-12">
+                                <div class="box">
+                                    <div class="box-img">
+                                        <img src="./asset/img/f5.png" alt="">
+                                    </div>
+                                    <div class="box-details">
+                                        <h4>Delicious Burger</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur velit praesentium iusto porro
+                                            consequatur ut unde placeat labore tenetur itaque.</p>
+                                        <div class="pricing-detail">
+                                            <span>$17</span>
+                                            <a href="#" class="order-btn">
+                                                <span><i class="fa-solid fa-cart-shopping"></i></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div id="pizza" class="shop-item col-lg-4 col-md-5 col-sm-12">
+                                <div class="box">
+                                    <div class="box-img">
+                                        <img src="./asset/img/f6.png" alt="">
+                                    </div>
+                                    <div class="box-details">
+                                        <h4>Delicious Pizza</h4>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Consectetur velit praesentium iusto porro
+                                            consequatur ut unde placeat labore tenetur itaque.</p>
+                                        <div class="pricing-detail">
+                                            <span>$17</span>
+                                            <a href="#" class="order-btn">
+                                                <span><i class="fa-solid fa-cart-shopping"></i></span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-12 col-md-12 mx-auto">
+                        <div class="btn-option">
+                            <a href="#" class="order-btn dark">
+                                <span>View More</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ABOUT US SECTION  -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="row centre-item">
+                <div class="col-lg-6 col-md-12">
+                    <div class="img-box">
+                        <img src="./asset/img/about-img-1.png" alt="" />
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="box-details">
+                        <div class="heading-container">
+                            <h2>We Are Let's Eat.</h2>
+                        </div>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                            Debitis impedit molestias sit, fuga id iure iusto repudiandae? Ea reiciendis ipsa harum ipsum voluptatem magnam quos consectetur nostrum culpa, ut sequi?
+                        </p>
+                        <a href="#" class="order-btn">
+                            <span>Read More</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- APPOINTMENTS AND BOOKING -->
+    <section id="contact" class="booking-section">
+        <div class="container">
+            <div class="heading-container">
+                <h2>Book A Table Now.</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-md-12">
+                    <form action="" class="form-container">
+                        <input class="form-control" type="text" name="fullnarm" id="name" placeholder="Your Full Name">  
+                        <input class="form-control" type="tel" name="telephone" id="phone" placeholder="Phone Number">
+                        <input class="form-control" type="email" name="email" id="email" placeholder="Email Address">
+                        <select class="form-control" name="seats" id="seat-reserved">
+                            <option value selected disabled>How Many Persons?</option>
+                            <option value="1">1</option>
+                            <option value="2">2</option>
+                            <option value="3">3</option>
+                            <option value="4">4</option>
+                            <option value="5">5</option>
+                        </select>
+                        <input class="form-control" type="date" name="time-reserved" id="dateofservice">
+                        <button type="submit" class="order-btn dark"><span>Book Now</span></button>
+                    </form>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="google-map"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- TESTIMONIAL AND REVIEWS -->
+    <section class="testimonial-section">
+        <div class="container">
+            <div class="row">
+                <div class="display-3">Customers Review</div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6">
+                        <div class="box">
+                            <div class="chat-bubble">
+                                <div class="chat-text">
+                                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem earum inventore qui soluta saepe perspiciatis accusamus id porro quisquam dolorem.
+                                </div>
+                                <div class="info-text"><span>John Doe</span></div>
+                            </div>
+                            <div class="chat-arrow"></div>
+                            <div class="profile-img">
+                                <img src="./asset/img/client1.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="box">
+                            <div class="chat-bubble">
+                                <div class="chat-text">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem earum inventore qui soluta saepe
+                                    perspiciatis accusamus id porro quisquam dolorem.
+                                </div>
+                                <div class="info-text"><span>John Doe</span></div>
+                            </div>
+                            <div class="chat-arrow"></div>
+                            <div class="profile-img">
+                                <img src="./asset/img/client1.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="box">
+                            <div class="chat-bubble">
+                                <div class="chat-text">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem earum inventore qui soluta saepe
+                                    perspiciatis accusamus id porro quisquam dolorem.
+                                </div>
+                                <div class="info-text"><span>John Doe</span></div>
+                            </div>
+                            <div class="chat-arrow"></div>
+                            <div class="profile-img">
+                                <img src="./asset/img/client1.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="box">
+                            <div class="chat-bubble">
+                                <div class="chat-text">
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem earum inventore qui soluta saepe
+                                    perspiciatis accusamus id porro quisquam dolorem.
+                                </div>
+                                <div class="info-text"><span>John Doe</span></div>
+                            </div>
+                            <div class="chat-arrow"></div>
+                            <div class="profile-img">
+                                <img src="./asset/img/client1.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER SECTION  -->
+    <footer class="footer-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-sm-12 mx-auto">
+                    <div class="footer-item">
+                        <h4>Contact Us</h4>
+                        <a href="" class="footer-link">
+                            <i class="fas fa-map-marked"></i> Location
+                        </a>
+                        <a href="" class="footer-link">
+                            <i class="fas fa-phone"></i> Call: +1 46 (555) 7809
+                        </a>
+                        <a href="" class="footer-link"><i class="fas fa-envelope"></i> demo@cypheir.com</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12 mx-auto">
+                    <div class="footer-item">
+                        <h1>Let's Eat.</h1>
+                        <div class="footer-info">
+                            <p>
+                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                                Eius a ipsam nisi eligendi doloremque consequatur quae perferendis, aut atque, expedita eos alias similique laborum eaque mollitia id quasi at accusantium.
+                            </p>
+                        </div>
+                        <div class="footer-social">
+                            <div class="footer-icon"><a href=""><i class="fab fa-facebook-f"></i></a></div>
+                            <div class="footer-icon"><a href=""><i class="fab fa-instagram"></i></a></div>
+                            <div class="footer-icon"><a href=""><i class="fab fa-twitter"></i></a></div>
+                            <div class="footer-icon"><a href=""><i class="fab fa-linkedin-in"></i></a></div>
+                            <div class="footer-icon"><a href=""><i class="fab fa-pinterest"></i></a></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-sm-12 mx-auto">
+                    <div class="footer-item">
+                        <h4>Opening Hours</h4>
+                        <p>Everyday</p>
+                        <p>10:00 AM - 10:00 PM</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="footer-credits">
+                    <p>©<span id="dateYear"></span> All Rights Reserved By <a href="#">Free Html Templates</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- CODES AND SCRIPTS -->
+    <script src="./asset/js/bootstrap.bundle.js"></script>
+    <script src="./asset/js/custom.js"></script>
+    
+</body>
+</html>

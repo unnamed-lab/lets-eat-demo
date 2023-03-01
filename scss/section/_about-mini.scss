@@ -1,0 +1,86 @@
+@use "../custom" as *;
+// @use "../components/mixins" as *;
+
+.about-section {
+  display: flex;
+  display: -webkit-flex;
+  margin: 12px 0;
+  padding: 8rem 10px;
+  background-color: $gray-900;
+  color: $white;
+
+  @include media-breakpoint-down(lg) {
+    padding: 4rem 0.5rem;
+  }
+
+  .centre-item {
+    align-items: center;
+
+    .img-box {
+      position: relative;
+      display: flex !important;
+      justify-content: center;
+      width: 100%;
+      max-height: 60vh;
+      padding: 0.25rem;
+      margin-left: auto;
+      margin-right: auto;
+      margin-bottom: 2rem;
+
+      @include media-breakpoint-down(lg) {
+        width: 80%;
+      }
+
+      img {
+        object-fit: contain;
+        width: 100%;
+
+        &:hover {
+          display: block;
+          animation: zoom-float 3s ease-in-out infinite;
+        }
+
+        @include media-breakpoint-down(lg) {
+            animation: zoom-float 3s ease-in-out infinite;
+        }
+      }
+    }
+
+    .box-details {
+      display: block;
+      font-family: "Poppins", "san-serif";
+      font-size: 20px;
+
+      .heading-container {
+        margin-top: 1rem;
+        margin-bottom: 1.25rem;
+        font-weight: 600;
+        text-transform: capitalize;
+      }
+
+      p {
+        margin-bottom: 2rem;
+      }
+
+      @include media-breakpoint-down(lg) {
+        display: flex;
+        display: -webkit-flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        margin-bottom: 4rem;
+
+        .heading-container {
+          text-align: center;
+          margin-top: 2rem;
+          margin-bottom: 0.5rem;
+        }
+
+        p {
+          text-align: center;
+          font-size: 18px;
+          margin-bottom: 1rem;
+        }
+      }
+    }
+  }
+}

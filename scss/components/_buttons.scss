@@ -1,0 +1,70 @@
+@use "../custom" as *;
+
+.order-btn {
+  background-color: $secondary;
+  border-radius: 3rem;
+  font-weight: 500;
+  padding: 8px 1rem;
+  text-decoration: none;
+  color: $white;
+  margin-left: auto;
+  margin-right: auto;
+  border: 2px solid transparent;
+  font-family: "Poppins", "san-serif";
+  text-transform: capitalize;
+
+  &.dark {
+    &:hover {
+    background-color: $black-trans;
+    border: 2px solid $secondary;
+    transition: all 1.5s;
+    span {
+      color: $white;
+      transition-delay: 100ms;
+      transition-timing-function: ease-in-out;
+    }
+  }
+  }
+
+  &:hover {
+    background-color: transparent;
+    border: 2px solid $secondary;
+    transition: all 1.5s;
+    span {
+      color: $secondary;
+      transition-delay: 100ms;
+      transition-timing-function: ease-in-out;
+    }
+  }
+
+  span {
+    padding: 0 5px;
+    font-weight: 500;
+  }
+
+  @include media-breakpoint-down(lg) {
+    &.order-nav {
+      width: auto;
+      margin-left: 10px;
+      margin-right: 10px;
+      background-color: $secondary;
+      opacity: 90%;
+
+      span {
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      &:hover {
+        background-color: transparent;
+        border: 2px solid $secondary;
+        transition: all 1.5s;
+        span {
+          color: $secondary;
+          transition-delay: 100ms;
+          transition-timing-function: ease-in-out;
+        }
+      }
+    }
+  }
+}
